@@ -1,0 +1,171 @@
+*{ /* the asteriks affects all elements */
+    margin: 15px; /* margin is white space between boxes*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url(bg1.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+head {
+
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: 1140px;
+    background-position: center;
+    background-attachment:scroll;
+}
+
+
+h1, h2 {
+    color: #333;
+    font-family: serif;
+    font-weight: 300
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.date { /* date class created*/
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.main-text {
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: -5px;
+    /*border-top: 3px solid #333;*/
+    line-height: 130%;
+}
+
+.first-text{
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    /*border-top: 3px solid #333;*/
+    line-height: 130%;
+}
+
+.second-text {
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    /*border-top: 3px solid #333;*/
+    line-height: 130%;
+}
+.dog-box {
+
+}
+
+.dog-box img {
+    position: relative;
+}
+
+.dog-text {
+    font-size: 15px; /*how to edit a set html class*/
+    font-feature-settings: serif;
+    margin-top: -15px;
+}
+.third-text {
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    /*border-top: 3px solid #333;*/
+    line-height: 130%;
+}
+
+.track-box{
+
+}
+
+.track-box img{
+    position: relative;
+
+}
+
+.track-text {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -15px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.author-box {  /*add a background: color to a class to see it easier when working with it*/
+    padding-top: 3px;
+    /*border-top: 3px solid #333; /* sets the border to 1px, solid and color*/
+}
+
+.author-box img {
+    border-radius: 50%;
+    float: left;
+    margin-top: 25px;
+}
+
+.author-text {
+    font-size: 15px; /*how to edit a set html class*/
+    font-feature-settings: serif;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.container {
+    width: 1140px; /* general screen size */
+     /* setting text margins*/
+    margin: auto;/* top-right-bottom-left*/
+    text-align: center;
+    background-color: #ced6e0;
+    border-radius: 1%;
+}
+
+.blog-post {
+    width: 80%;
+    margin:auto;
+    /*padding-right: 30px;*/
+    position: relative; /*used for date*/
+}
+
+#menu li {
+ list-style-type: none;
+ width: 7em;
+ text-align: center;
+ margin-left: -0.5em;
+ display: inline-block;
+}
+
+#menu a {
+ text-decoration:none;
+ color: black;
+ display: block;
+ background-color: #70a1ff;
+ box-shadow: 5px 5px 5px black;
+ margin-bottom: 4px;
+}
+
+#menu a:hover {
+ background-color: #ECF2F5;
+ box-shadow: 3px 3px 3px black;
+ border: none;
+}
